@@ -1,5 +1,6 @@
 # def div(a,b):
 #     print(a/b)
+
 # def ext_div(func):
 #     def inside_logic(a,b):
 #         if a<b:
@@ -34,11 +35,11 @@
 # print_tag('Hello World!')
 # print_tag('Namaste World')
 
-'''closures'''
-def outer_func(message):
-    msg=message
-    def inner_func():
-        print(msg)
-    return inner_func
-my_func=outer_func('Hello')
-print(my_func())
+# '''closures'''
+# def outer_func(message):
+#     msg=message
+#     def inner_func():
+#         print(msg)
+#     return inner_func
+# my_func=outer_func('Hello')
+# print(my_func())
