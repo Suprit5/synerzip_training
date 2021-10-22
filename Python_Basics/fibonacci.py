@@ -18,5 +18,5 @@ def r_fibonacci(n):
         return r_fibonacci(n-2)+r_fibonacci(n-1)
 
 number=int(input('Enter the number:- '))
-answer=r_fibonacci(number)
+answer=fibonacci(number)
 print(f'te fibonacci sequence of {number} is {answer}')

@@ -9,8 +9,8 @@ def r_factorial(number):
     elif number == 1:
         return 1
     else:
-        return number*factorial(number-1)
+        return number*r_factorial(number-1)
 
 number= int(input('Enter the number:- '))
-answer=factorial(number)
+answer=r_factorial(number)
 print(f' The factorial of {number} is {answer}')
